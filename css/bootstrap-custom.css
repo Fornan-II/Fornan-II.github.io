@@ -1,0 +1,120 @@
+@charset "utf-8";
+/* CSS Document */
+
+body
+{
+	color: #D2D4D4;
+	background-color: #1F1F1F;
+}
+
+.jumbotron
+{
+	background-color: #484848;
+	border-radius: 0%;
+}
+
+.parallax
+{
+	/*Image Banner*/
+    height: 100%;
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner
+{
+	/*Image Banner*/
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-bodyColor
+{
+	background-color: #1F1F1F;
+}
+
+.text-bodyColor
+{
+	color: #D2D4D4;
+}
+
+.bg-card
+{
+    background-color: #484848;
+}
+
+.brdr-3
+{
+    border-radius: 3px;
+}
+
+.center
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Carousel Modifications*/
+.carousel-inner
+{
+    max-height: 90vh;
+    height: 56.25vw;
+    width: 100%;
+}
+
+.carousel-inner > .carousel-item
+{
+    overflow: hidden;
+}
+
+.yt-embed
+{
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-banner
+{
+	height:100px;
+	width: 100%;
+    padding:0%;
+    background-size: 100% auto;
+    background-position: center;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.portfolio-banner > img
+{
+	max-height:100%;
+	height:auto;
+}
+
+.square-corners
+{
+	border-radius: 0;
+}
+
+.footer-item
+{
+	display: block;
+	padding: 0.5rem 1rem;
+	color: #fff
+}
+
+.footer-link
+{
+	text-decoration: none;
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.footer-link:hover, .footer-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
